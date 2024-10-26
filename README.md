@@ -1,6 +1,6 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [PIKACHU] 🎯
+# PIKACHU 🎯
 
 
 ## Basic Details
@@ -16,10 +16,10 @@
 [This project is an Automatic Pikachu-Voice Converter that records your voice, then modifies and replays it with a pitch-perfect Pikachu sound effect! A fun tool to bring out your inner Pokémon.]
 
 ### The Problem (that doesn't exist)
-[There are too many boring, human-sounding voices in the world. Where's the charm, the spark, the pika-pika?]
+There are too many boring, human-sounding voices in the world. Where's the charm, the spark, the pika-pika?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+With Pikachu-ify, you can instantly transform your voice into Pikachu's! Just press a button, say anything, and let our program handle the rest. Say goodbye to mundane, and hello to electric vocal transformations!
 
 ## Technical Details
 ### Technologies/Components Used

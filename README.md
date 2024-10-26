@@ -4,16 +4,16 @@
 
 
 ## Basic Details
-### Team Name: [Geeks]
+### Team Name: Geeks
 
 
 ### Team Members
-- Team Lead: [Edwin Joy] - [SCMS School of Engineering & Technology]
-- Member 2: [Gauri Vinod Nair] - [SCMS School of Engineering & Technology]
-- Member 3: [Gouri K Mineesh] - [SCMS School of Engineering & Technology]
+- Team Lead: Edwin Joy - SCMS School of Engineering & Technology
+- Member 2: Gauri Vinod Nair - SCMS School of Engineering & Technology
+- Member 3: Gouri K Mineesh - SCMS School of Engineering & Technology
 
 ### Project Description
-[This project is an Automatic Pikachu-Voice Converter that records your voice, then modifies and replays it with a pitch-perfect Pikachu sound effect! A fun tool to bring out your inner Pokémon.]
+This project is an Automatic Pikachu-Voice Converter that records your voice, then modifies and replays it with a pitch-perfect Pikachu sound effect! A fun tool to bring out your inner Pokémon.
 
 ### The Problem (that doesn't exist)
 There are too many boring, human-sounding voices in the world. Where's the charm, the spark, the pika-pika?
@@ -24,10 +24,10 @@ With Pikachu-ify, you can instantly transform your voice into Pikachu's! Just pr
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Languages - Python,HTML
+- Frameworks - Flask (for the backend server)
+- Libraries used -  PyAudio (for recording), NumPy (for audio processing), Soundfile (for saving modified audio), HTTPServer (for web-based interaction)
+- Tools used - Visual Studio Code, Web browser for testing
 
 For Hardware:
 - [List main components]

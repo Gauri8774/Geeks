@@ -100,7 +100,7 @@ def record_audio(filename, duration=5):
     audio_data = np.concatenate(frames)
 
     # Save the audio to a file
-    sf.write(filename, audio_data, 44100)  # Correctly save as WAV file with sample rate
+    sf.write(filename, audio_data, 44100)  # Save as WAV file with sample rate
 
 # Function to modify the pitch
 def modify_pitch(filename, pitch_factor=1.5):
@@ -137,11 +137,12 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
                 self.wfile.write(f.read())
 
 # Set up the server
-if _name_ == "_main_":
-    server_address = ('', 8000)
+if __name__ == "__main__":
+    server_address = ('', 8000)  # Listen on all interfaces
     httpd = HTTPServer(server_address, SimpleHTTPRequestHandler)
     print("Server running on http://localhost:8000")
     httpd.serve_forever()
+
 
 FRONT-END
 
@@ -156,15 +157,15 @@ FRONT-END
             margin: 0;
             font-family: Arial, sans-serif;
             height: 100vh;
-            background-size: cover;
-            background-color: #dba100;
-            background-position: center;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
             display: flex;
             align-items: center;
             justify-content: center;
         }
         .container {
-            background-color: rgba(178, 34, 34, 0.8);
+            background-color: rgba(62, 57, 210, 0.567);
             padding: 20px;
             border-radius: 10px;
             text-align: center;
@@ -216,6 +217,19 @@ FRONT-END
         .button-wrapper a:hover::after {
             width: 100%;
         }
+
+        /* Gradient animation keyframes */
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
     </style>
     <script>
         function startRecording() {
@@ -252,14 +266,13 @@ With the press of a button, this web application captures audio, transforms it w
 
 
 # Screenshots
- (Add at least 3)
+
 ![Screenshot1]![front end](https://github.com/user-attachments/assets/f40f23a7-be2b-41ac-b462-fc42bdf98e9f)
 
 ![Screenshot2]![back end](https://github.com/user-attachments/assets/5eb696b4-f264-48dd-aaea-f0aec3ba87e3)
 
 
 ![Screenshot3]![webpage](https://github.com/user-attachments/assets/6138c023-b349-4ae4-8ca2-caf706495f5b)
-ere with proper name)
 
 # Diagrams
 Start Web Server

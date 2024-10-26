@@ -1,22 +1,22 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# [PIKACHU] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Geeks]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Edwin Joy] - [SCMS School of Engineering & Technology]
+- Member 2: [Gauri Vinod Nair] - [SCMS School of Engineering & Technology]
+- Member 3: [Gouri K Mineesh] - [SCMS School of Engineering & Technology]
 
 ### Project Description
-[2-3 lines about what your project does]
+[This project is an Automatic Pikachu-Voice Converter that records your voice, then modifies and replays it with a pitch-perfect Pikachu sound effect! A fun tool to bring out your inner Pokémon.]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[There are too many boring, human-sounding voices in the world. Where's the charm, the spark, the pika-pika?]
 
 ### The Solution (that nobody asked for)
 [How are you solving it? Keep it fun!]

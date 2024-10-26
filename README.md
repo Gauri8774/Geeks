@@ -272,10 +272,10 @@ With the press of a button, this web application captures audio, transforms it w
 ![Screenshot2]![back end](https://github.com/user-attachments/assets/5eb696b4-f264-48dd-aaea-f0aec3ba87e3)
 
 
-![Screenshot3]![webpage](https://github.com/user-attachments/assets/6138c023-b349-4ae4-8ca2-caf706495f5b)
-
+![Screenshot3]![webpage](https://github.com/user-attachments/assets/5b3a4f7a-e2a7-40b7-ad9c-984669e859bf)
 # Diagrams
-Start Web Server
+
+
        |
        v
 Serve HTML Page
